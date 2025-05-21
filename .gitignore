@@ -1,0 +1,31 @@
+# PHP specific
+/vendor/
+.env
+*.log
+error_log
+php_errors.log
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Dependencies
+/node_modules/
+/dist/
+/build/
+
+# Cache and temporary files
+*.cache
+*.tmp
+*.temp 
